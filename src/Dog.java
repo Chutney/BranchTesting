@@ -9,4 +9,9 @@ public class Dog extends Animal {
     boolean eat(String foodType) {
         return true;
     }
+
+    @Override
+    void jump(double distance) {
+        System.out.println("Dog jumped "+distance);
+    }
 }
