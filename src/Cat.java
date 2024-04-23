@@ -4,4 +4,9 @@ public class Cat extends Animal {
     String makeSound() {
         return "Meow";
     }
+
+    @Override
+    boolean eat(String foodType) {
+        return true;
+    }
 }
